@@ -1,0 +1,60 @@
+body {
+
+}
+:root {
+    --Color1:hsl(243, 87%, 12%);
+    --Color2:hsl(238, 22%, 44%);
+    --Color3:hsl(224, 93%, 58%);
+    --Color4:hsl(170, 45%, 43%);
+    --Color5:hsl(240, 75%, 98%);
+    --Color6:hsl(0, 0%, 75%);
+}
+nav {
+    margin-bottom: 1%;
+}
+.section2 {
+    /* background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: var(--Color5);
+}
+a {
+    text-decoration: none;
+}
+.see {
+    color: var(--Color4);
+}
+.hamada {
+    border-bottom: 1px solid var(--Color4);
+    width: fit-content;
+    padding-bottom: 4px;
+}
+.section3 {
+    background-color: var(--Color2);
+}
+footer {
+    background-color: var(--Color1);
+}
+.icon i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width:  30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.Icons {
+    display: flex;
+    /* padding-right: 50px; */
+}
+
+
+
+
+
+
+/* @media only screen and (max-width: 768px) {
+
+  } */
